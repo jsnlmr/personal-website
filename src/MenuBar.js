@@ -13,9 +13,6 @@ const MenuBar = () => {
           <Link to='/projects'>Projects</Link>
         </div>
         <div  className='link'>
-          <Link to='/blog'>Blog</Link>
-        </div>
-        <div  className='link'>
           <Link to='/contact'>Contact</Link>
         </div>
       </div>
@@ -24,3 +21,7 @@ const MenuBar = () => {
 }
 
 export default MenuBar
+
+// <div  className='link'>
+//   <Link to='/blog'>Blog</Link>
+// </div>

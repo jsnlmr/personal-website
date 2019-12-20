@@ -17,10 +17,16 @@ function App() {
           <Route path='/about'>
             <About />
           </Route>
+          <Route path='/'>
+            <div id='welcome'>
+              <p>Hi, my name is Jason. I'm a diehard sports fan. </p>
+            </div>
+          </Route>
         </Switch>
       </div>
     </Router>
   );
 }
+
 
 export default App;
